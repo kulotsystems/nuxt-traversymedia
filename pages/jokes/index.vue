@@ -9,7 +9,7 @@
         name: 'Jokes.Index',
         head() {
             return {
-                title: 'Welcome to Dad Jokes',
+                title: 'Dad Jokes',
                 meta : [
                     {
                         hid    : 'description',
