@@ -17,10 +17,10 @@ $ npm run start
 $ npm run generate
 ```
 
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
 ## Preview
 Access <https://nuxt-traversymedia.vercel.app>.
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories
 
