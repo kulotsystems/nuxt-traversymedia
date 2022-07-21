@@ -1,13 +1,22 @@
 <template>
     <div>
-        jokes
+        <Joke
+            v-for="joke in jokes"
+            :key="joke.id"
+            :joke="joke.joke"
+            :id="joke.id"
+        />
     </div>
 </template>
 
 <script>
+    import Joke from '../../components/Joke.vue';
 
     export default {
         name: 'Jokes.Index',
+        components: {
+            Joke
+        },
         data() {
             return {
                 jokes: []
