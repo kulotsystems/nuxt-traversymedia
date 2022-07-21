@@ -15,7 +15,7 @@
         },
         methods: {
             searchJoke() {
-                this.$emit('search-joke', this.text);
+                this.$emit('searchJoke', this.text);
                 this.text = '';
             }
         }
