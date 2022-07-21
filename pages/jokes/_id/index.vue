@@ -13,7 +13,7 @@
         name: 'SingleJoke',
         data() {
             return {
-                joke: null
+                joke: {}
             }
         },
         async created() {
@@ -30,6 +30,18 @@
                 console.log('ERROR: ', err);
             }
         },
+        head() {
+            return {
+                title: 'Joke' + (this.joke.id ? ' ' + this.joke.id : ''),
+                meta : [
+                    {
+                        hid    : 'description',
+                        name   : 'description',
+                        content: 'Best place for corny dad jokes'
+                    }
+                ]
+            }
+        }
     }
 </script>
 
